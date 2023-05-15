@@ -1,6 +1,7 @@
 {
   "name": "@monorepo/client",
   "main": "lib/index.js",
+  "type": "commonjs",
   "scripts": {
     "build": "tsc"
   },

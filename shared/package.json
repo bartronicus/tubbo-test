@@ -6,11 +6,22 @@
   },
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "type": "commonjs",
   "exports": {
     ".": {
       "types": "./lib/index.d.ts",
       "import": "./lib/index.js"
     },
-    "./deep": "./lib/deep/index.js"
+    "./deep":  "./lib/deep/index.js"
+  },
+  "typesVersions": {
+    "*": {
+      ".": [
+        "lib/index.d.ts"
+      ],
+      "deep": [
+        "lib/deep/index.d.ts"
+      ]
+    }
   }
 }
