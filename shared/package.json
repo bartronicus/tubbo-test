@@ -8,10 +8,7 @@
   "types": "lib/index.d.ts",
   "type": "commonjs",
   "exports": {
-    ".": {
-      "types": "./lib/index.d.ts",
-      "import": "./lib/index.js"
-    },
+    ".": "./lib/index.js",
     "./deep":  "./lib/deep/index.js"
   },
   "typesVersions": {

@@ -1,8 +1,10 @@
 "use strict";
 exports.__esModule = true;
-// import { greetUser } from "@monorepo/shared";
+var shared_1 = require("@monorepo/shared");
 var deep_1 = require("@monorepo/shared/deep");
-// greetUser("client");
+// import { greetUserDeeply } from '@monorepo/shared/deep';
+deep_1.greetUserDeeply;
 var aws_cdk_lib_1 = require("aws-cdk-lib");
 console.log(aws_cdk_lib_1.RemovalPolicy.RETAIN);
-deep_1.greetUserDeeply("client");
+shared_1.greetUser('client');
+deep_1.greetUserDeeply('client');
