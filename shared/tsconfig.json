@@ -8,6 +8,7 @@
   "compilerOptions": {
     "alwaysStrict": true,
     "experimentalDecorators": true,
+    "declaration": true,
     "incremental": true,
     "lib": ["es2020", "dom"],
     "module": "CommonJS",
