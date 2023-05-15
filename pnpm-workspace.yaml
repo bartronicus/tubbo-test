@@ -1,0 +1,6 @@
+packages:
+  - "admin"
+  - "client"
+  - "client2"
+  - "shared"
+  - "shared2"

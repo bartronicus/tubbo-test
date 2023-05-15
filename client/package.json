@@ -1,0 +1,14 @@
+{
+  "name": "@monorepo/client",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@monorepo/shared": "workspace:*",
+    "aws-cdk-lib": "^2.79.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  }
+}

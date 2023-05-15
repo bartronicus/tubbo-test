@@ -1,0 +1,16 @@
+{
+  "name": "@monorepo/shared",
+  "private": true,
+  "scripts": {
+    "build": "tsc"
+  },
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "import": "./lib/index.js"
+    },
+    "./deep": "./lib/deep/index.js"
+  }
+}

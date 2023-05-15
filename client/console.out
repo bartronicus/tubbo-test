@@ -1,0 +1,1452 @@
+
+> @monorepo/client@ build /Users/philswitzer/Documents/GitHub/module-test/client
+> tsc "--traceResolution"
+
+======== Resolving module 'cuid' from '/Users/philswitzer/Documents/GitHub/module-test/client/src/test.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'cuid' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/client/src/node_modules' does not exist, skipping all lookups in it.
+Found 'package.json' at '/Users/philswitzer/Documents/GitHub/module-test/client/node_modules/cuid/package.json'.
+'package.json' does not have a 'typesVersions' field.
+File '/Users/philswitzer/Documents/GitHub/module-test/client/node_modules/cuid.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/client/node_modules/cuid.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/client/node_modules/cuid.d.ts' does not exist.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field 'index.js' that references '/Users/philswitzer/Documents/GitHub/module-test/client/node_modules/cuid/index.js'.
+File '/Users/philswitzer/Documents/GitHub/module-test/client/node_modules/cuid/index.js' exist - use it as a name resolution result.
+File '/Users/philswitzer/Documents/GitHub/module-test/client/node_modules/cuid/index.js' has an unsupported extension, so skipping it.
+Loading module as file / folder, candidate module location '/Users/philswitzer/Documents/GitHub/module-test/client/node_modules/cuid/index.js', target file type 'TypeScript'.
+File '/Users/philswitzer/Documents/GitHub/module-test/client/node_modules/cuid/index.js.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/client/node_modules/cuid/index.js.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/client/node_modules/cuid/index.js.d.ts' does not exist.
+File name '/Users/philswitzer/Documents/GitHub/module-test/client/node_modules/cuid/index.js' has a '.js' extension - stripping it.
+File '/Users/philswitzer/Documents/GitHub/module-test/client/node_modules/cuid/index.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/client/node_modules/cuid/index.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/client/node_modules/cuid/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/Users/philswitzer/Documents/GitHub/module-test/client/node_modules/cuid/index.d.ts', result '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/cuid@3.0.0/node_modules/cuid/index.d.ts'.
+======== Module name 'cuid' was successfully resolved to '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/cuid@3.0.0/node_modules/cuid/index.d.ts' with Package ID 'cuid/index.d.ts@3.0.0'. ========
+======== Resolving type reference directive 'node', containing file '/Users/philswitzer/Documents/GitHub/module-test/client/__inferred type names__.ts', root directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/@types'. ========
+Resolving with primary search path '/Users/philswitzer/Documents/GitHub/module-test/node_modules/@types'.
+Found 'package.json' at '/Users/philswitzer/Documents/GitHub/module-test/node_modules/@types/node/package.json'.
+'package.json' has a 'typesVersions' field with version-specific path mappings.
+'package.json' does not have a 'typings' field.
+'package.json' has 'types' field 'index.d.ts' that references '/Users/philswitzer/Documents/GitHub/module-test/node_modules/@types/node/index.d.ts'.
+'package.json' has a 'typesVersions' entry '<=4.8' that matches compiler version '4.3.5', looking for a pattern to match module name 'index.d.ts'.
+Module name 'index.d.ts', matched pattern '*'.
+Trying substitution 'ts4.8/*', candidate module location: 'ts4.8/index.d.ts'.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/@types/node/ts4.8/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/Users/philswitzer/Documents/GitHub/module-test/node_modules/@types/node/ts4.8/index.d.ts', result '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/index.d.ts'.
+======== Type reference directive 'node' was successfully resolved to '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/index.d.ts' with Package ID '@types/node/ts4.8/index.d.ts@20.1.4', primary: true. ========
+Module 'assert' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/assert.d.ts'.
+======== Resolving module 'node:assert' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/assert/strict.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'node:assert' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/assert/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:assert.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:assert.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:assert.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node:assert.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:assert.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:assert.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:assert.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/@types' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:assert.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:assert.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:assert.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/@types/node:assert.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+Loading module 'node:assert' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/assert/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:assert.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:assert.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:assert.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:assert.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:assert.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:assert.jsx' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'node:assert' was not resolved. ========
+======== Resolving module 'worker_threads' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/globals.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'worker_threads' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/worker_threads.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/worker_threads.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/worker_threads.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/worker_threads.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/worker_threads.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/worker_threads.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/worker_threads.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/@types' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/worker_threads.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/worker_threads.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/worker_threads.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/@types/worker_threads.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+Loading module 'worker_threads' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/worker_threads.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/worker_threads.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/worker_threads.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/worker_threads.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/worker_threads.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/worker_threads.jsx' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'worker_threads' was not resolved. ========
+Module 'async_hooks' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/async_hooks.d.ts'.
+Module 'buffer' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/buffer.d.ts'.
+Module 'buffer' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/buffer.d.ts'.
+======== Resolving module 'node:crypto' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/buffer.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'node:crypto' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:crypto.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:crypto.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:crypto.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node:crypto.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:crypto.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:crypto.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:crypto.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/@types' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:crypto.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:crypto.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:crypto.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/@types/node:crypto.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+Loading module 'node:crypto' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:crypto.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:crypto.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:crypto.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:crypto.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:crypto.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:crypto.jsx' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'node:crypto' was not resolved. ========
+======== Resolving module 'node:stream/web' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/buffer.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'node:stream/web' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/@types' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+Loading module 'node:stream/web' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'node:stream/web' was not resolved. ========
+Module 'child_process' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/child_process.d.ts'.
+======== Resolving module 'node:fs' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/child_process.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'node:fs' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:fs.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:fs.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:fs.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node:fs.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:fs.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:fs.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:fs.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/@types' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:fs.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:fs.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:fs.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/@types/node:fs.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+Loading module 'node:fs' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:fs.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:fs.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:fs.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:fs.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:fs.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:fs.jsx' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'node:fs' was not resolved. ========
+======== Resolving module 'node:events' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/child_process.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'node:events' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:events.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:events.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:events.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node:events.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:events.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:events.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:events.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/@types' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:events.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:events.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:events.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/@types/node:events.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+Loading module 'node:events' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:events.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:events.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:events.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:events.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:events.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:events.jsx' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'node:events' was not resolved. ========
+======== Resolving module 'node:net' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/child_process.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'node:net' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:net.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:net.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:net.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node:net.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:net.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:net.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:net.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/@types' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:net.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:net.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:net.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/@types/node:net.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+Loading module 'node:net' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:net.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:net.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:net.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:net.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:net.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:net.jsx' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'node:net' was not resolved. ========
+======== Resolving module 'node:stream' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/child_process.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'node:stream' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:stream.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:stream.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:stream.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node:stream.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:stream.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:stream.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:stream.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/@types' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:stream.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:stream.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:stream.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/@types/node:stream.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+Loading module 'node:stream' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:stream.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:stream.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:stream.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:stream.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:stream.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:stream.jsx' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'node:stream' was not resolved. ========
+======== Resolving module 'node:url' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/child_process.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'node:url' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:url.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:url.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:url.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node:url.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:url.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:url.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:url.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/@types' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:url.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:url.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:url.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/@types/node:url.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+Loading module 'node:url' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:url.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:url.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:url.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:url.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:url.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:url.jsx' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'node:url' was not resolved. ========
+Module 'cluster' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/cluster.d.ts'.
+Module 'cluster' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/cluster.d.ts'.
+======== Resolving module 'node:child_process' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/cluster.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'node:child_process' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:child_process.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:child_process.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:child_process.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node:child_process.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:child_process.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:child_process.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:child_process.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/@types' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:child_process.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:child_process.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:child_process.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/@types/node:child_process.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+Loading module 'node:child_process' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:child_process.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:child_process.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:child_process.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:child_process.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:child_process.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:child_process.jsx' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'node:child_process' was not resolved. ========
+======== Resolving module 'node:events' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/cluster.d.ts'. ========
+Resolution for module 'node:events' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:events' was not resolved. ========
+======== Resolving module 'node:net' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/cluster.d.ts'. ========
+Resolution for module 'node:net' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:net' was not resolved. ========
+Module 'node:console' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/console.d.ts'.
+======== Resolving module 'node:util' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/console.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'node:util' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:util.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:util.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:util.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node:util.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:util.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:util.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:util.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/@types' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:util.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:util.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:util.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/@types/node:util.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+Loading module 'node:util' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:util.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:util.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:util.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:util.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:util.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:util.jsx' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'node:util' was not resolved. ========
+Module 'constants' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/constants.d.ts'.
+======== Resolving module 'node:os' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/constants.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'node:os' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:os.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:os.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:os.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node:os.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:os.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:os.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:os.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/@types' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:os.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:os.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:os.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/@types/node:os.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+Loading module 'node:os' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:os.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:os.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:os.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:os.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:os.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:os.jsx' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'node:os' was not resolved. ========
+======== Resolving module 'node:crypto' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/constants.d.ts'. ========
+Resolution for module 'node:crypto' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:crypto' was not resolved. ========
+======== Resolving module 'node:fs' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/constants.d.ts'. ========
+Resolution for module 'node:fs' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:fs' was not resolved. ========
+Module 'crypto' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/crypto.d.ts'.
+======== Resolving module 'node:stream' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/crypto.d.ts'. ========
+Resolution for module 'node:stream' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:stream' was not resolved. ========
+======== Resolving module 'node:tls' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/crypto.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'node:tls' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:tls.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:tls.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:tls.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node:tls.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:tls.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:tls.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:tls.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/@types' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:tls.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:tls.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:tls.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/@types/node:tls.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+Loading module 'node:tls' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:tls.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:tls.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:tls.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:tls.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:tls.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:tls.jsx' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'node:tls' was not resolved. ========
+Module 'dgram' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/dgram.d.ts'.
+======== Resolving module 'node:net' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/dgram.d.ts'. ========
+Resolution for module 'node:net' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:net' was not resolved. ========
+======== Resolving module 'node:dns' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/dgram.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'node:dns' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:dns.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:dns.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:dns.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node:dns.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:dns.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:dns.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:dns.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/@types' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:dns.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:dns.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:dns.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/@types/node:dns.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+Loading module 'node:dns' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:dns.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:dns.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:dns.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:dns.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:dns.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:dns.jsx' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'node:dns' was not resolved. ========
+======== Resolving module 'node:events' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/dgram.d.ts'. ========
+Resolution for module 'node:events' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:events' was not resolved. ========
+Module 'diagnostics_channel' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/diagnostics_channel.d.ts'.
+Module 'dns' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/dns.d.ts'.
+======== Resolving module 'node:dns/promises' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/dns.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'node:dns/promises' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/@types' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+Loading module 'node:dns/promises' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'node:dns/promises' was not resolved. ========
+Module 'dns/promises' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/dns/promises.d.ts'.
+======== Resolving module 'node:dns' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/dns/promises.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'node:dns' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/dns/node_modules' does not exist, skipping all lookups in it.
+Resolution for module 'node:dns' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:dns' was not resolved. ========
+Module 'domain' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/domain.d.ts'.
+======== Resolving module 'node:events' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/domain.d.ts'. ========
+Resolution for module 'node:events' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:events' was not resolved. ========
+======== Resolving module 'events' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/dom-events.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'events' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/events.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/events.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/events.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/events.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/events.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/events.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/events.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/@types' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/events.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/events.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/events.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/@types/events.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+Loading module 'events' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/events.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/events.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/events.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/events.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/events.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/events.jsx' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'events' was not resolved. ========
+Module 'node:events' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/events.d.ts'.
+Module 'events' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/events.d.ts'.
+Module 'fs' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/fs.d.ts'.
+======== Resolving module 'node:stream' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/fs.d.ts'. ========
+Resolution for module 'node:stream' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:stream' was not resolved. ========
+======== Resolving module 'node:events' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/fs.d.ts'. ========
+Resolution for module 'node:events' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:events' was not resolved. ========
+======== Resolving module 'node:url' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/fs.d.ts'. ========
+Resolution for module 'node:url' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:url' was not resolved. ========
+======== Resolving module 'node:fs/promises' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/fs.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'node:fs/promises' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/@types' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+Loading module 'node:fs/promises' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'node:fs/promises' was not resolved. ========
+Module 'fs/promises' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/fs/promises.d.ts'.
+======== Resolving module 'node:events' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/fs/promises.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'node:events' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/fs/node_modules' does not exist, skipping all lookups in it.
+Resolution for module 'node:events' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:events' was not resolved. ========
+======== Resolving module 'node:stream' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/fs/promises.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'node:stream' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/fs/node_modules' does not exist, skipping all lookups in it.
+Resolution for module 'node:stream' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:stream' was not resolved. ========
+======== Resolving module 'node:stream/web' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/fs/promises.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'node:stream/web' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/fs/node_modules' does not exist, skipping all lookups in it.
+Resolution for module 'node:stream/web' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:stream/web' was not resolved. ========
+======== Resolving module 'node:fs' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/fs/promises.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'node:fs' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/fs/node_modules' does not exist, skipping all lookups in it.
+Resolution for module 'node:fs' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:fs' was not resolved. ========
+======== Resolving module 'node:readline' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/fs/promises.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'node:readline' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/fs/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:readline.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:readline.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:readline.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node:readline.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:readline.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:readline.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:readline.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/@types' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:readline.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:readline.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:readline.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/@types/node:readline.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+Loading module 'node:readline' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/fs/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:readline.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:readline.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:readline.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:readline.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:readline.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:readline.jsx' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'node:readline' was not resolved. ========
+Module 'http' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/http.d.ts'.
+======== Resolving module 'node:stream' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/http.d.ts'. ========
+Resolution for module 'node:stream' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:stream' was not resolved. ========
+======== Resolving module 'node:url' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/http.d.ts'. ========
+Resolution for module 'node:url' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:url' was not resolved. ========
+======== Resolving module 'node:net' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/http.d.ts'. ========
+Resolution for module 'node:net' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:net' was not resolved. ========
+======== Resolving module 'node:dns' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/http.d.ts'. ========
+Resolution for module 'node:dns' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:dns' was not resolved. ========
+Module 'http2' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/http2.d.ts'.
+======== Resolving module 'node:events' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/http2.d.ts'. ========
+Resolution for module 'node:events' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:events' was not resolved. ========
+======== Resolving module 'node:fs' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/http2.d.ts'. ========
+Resolution for module 'node:fs' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:fs' was not resolved. ========
+======== Resolving module 'node:net' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/http2.d.ts'. ========
+Resolution for module 'node:net' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:net' was not resolved. ========
+======== Resolving module 'node:stream' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/http2.d.ts'. ========
+Resolution for module 'node:stream' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:stream' was not resolved. ========
+======== Resolving module 'node:tls' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/http2.d.ts'. ========
+Resolution for module 'node:tls' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:tls' was not resolved. ========
+======== Resolving module 'node:url' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/http2.d.ts'. ========
+Resolution for module 'node:url' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:url' was not resolved. ========
+======== Resolving module 'node:http' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/http2.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'node:http' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:http.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:http.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:http.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node:http.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:http.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:http.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:http.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/@types' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:http.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:http.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:http.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/@types/node:http.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+Loading module 'node:http' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:http.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:http.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:http.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:http.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:http.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:http.jsx' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'node:http' was not resolved. ========
+Module 'https' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/https.d.ts'.
+======== Resolving module 'node:stream' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/https.d.ts'. ========
+Resolution for module 'node:stream' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:stream' was not resolved. ========
+======== Resolving module 'node:tls' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/https.d.ts'. ========
+Resolution for module 'node:tls' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:tls' was not resolved. ========
+======== Resolving module 'node:http' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/https.d.ts'. ========
+Resolution for module 'node:http' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:http' was not resolved. ========
+======== Resolving module 'node:url' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/https.d.ts'. ========
+Resolution for module 'node:url' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:url' was not resolved. ========
+Module 'inspector' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/inspector.d.ts'.
+======== Resolving module 'node:events' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/inspector.d.ts'. ========
+Resolution for module 'node:events' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:events' was not resolved. ========
+Module 'module' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/module.d.ts'.
+======== Resolving module 'node:url' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/module.d.ts'. ========
+Resolution for module 'node:url' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:url' was not resolved. ========
+Module 'net' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/net.d.ts'.
+======== Resolving module 'node:stream' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/net.d.ts'. ========
+Resolution for module 'node:stream' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:stream' was not resolved. ========
+======== Resolving module 'node:events' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/net.d.ts'. ========
+Resolution for module 'node:events' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:events' was not resolved. ========
+======== Resolving module 'node:dns' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/net.d.ts'. ========
+Resolution for module 'node:dns' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:dns' was not resolved. ========
+Module 'os' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/os.d.ts'.
+Module 'path' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/path.d.ts'.
+Module 'path' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/path.d.ts'.
+Module 'path' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/path.d.ts'.
+Module 'path/posix' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/path.d.ts'.
+Module 'path/win32' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/path.d.ts'.
+Module 'perf_hooks' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/perf_hooks.d.ts'.
+Module 'perf_hooks' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/perf_hooks.d.ts'.
+======== Resolving module 'node:async_hooks' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/perf_hooks.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'node:async_hooks' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:async_hooks.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:async_hooks.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:async_hooks.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node:async_hooks.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:async_hooks.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:async_hooks.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:async_hooks.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/@types' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:async_hooks.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:async_hooks.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:async_hooks.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/@types/node:async_hooks.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+Loading module 'node:async_hooks' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:async_hooks.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:async_hooks.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:async_hooks.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:async_hooks.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:async_hooks.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:async_hooks.jsx' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'node:async_hooks' was not resolved. ========
+Module 'process' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/process.d.ts'.
+======== Resolving module 'node:tty' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/process.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'node:tty' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:tty.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:tty.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:tty.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node:tty.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:tty.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:tty.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:tty.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/@types' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:tty.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:tty.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:tty.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/@types/node:tty.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+Loading module 'node:tty' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:tty.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:tty.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:tty.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:tty.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:tty.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:tty.jsx' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'node:tty' was not resolved. ========
+======== Resolving module 'node:worker_threads' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/process.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'node:worker_threads' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:worker_threads.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:worker_threads.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:worker_threads.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node:worker_threads.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:worker_threads.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:worker_threads.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:worker_threads.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/@types' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:worker_threads.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:worker_threads.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:worker_threads.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/@types/node:worker_threads.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+Loading module 'node:worker_threads' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:worker_threads.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:worker_threads.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:worker_threads.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:worker_threads.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:worker_threads.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:worker_threads.jsx' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'node:worker_threads' was not resolved. ========
+Module 'punycode' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/punycode.d.ts'.
+Module 'querystring' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/querystring.d.ts'.
+Module 'readline' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/readline.d.ts'.
+======== Resolving module 'node:events' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/readline.d.ts'. ========
+Resolution for module 'node:events' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:events' was not resolved. ========
+======== Resolving module 'node:readline/promises' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/readline.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'node:readline/promises' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/@types' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+Loading module 'node:readline/promises' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'node:readline/promises' was not resolved. ========
+Module 'readline/promises' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/readline/promises.d.ts'.
+======== Resolving module 'node:readline' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/readline/promises.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'node:readline' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/readline/node_modules' does not exist, skipping all lookups in it.
+Resolution for module 'node:readline' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:readline' was not resolved. ========
+======== Resolving module 'node:events' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/readline/promises.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'node:events' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/readline/node_modules' does not exist, skipping all lookups in it.
+Resolution for module 'node:events' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:events' was not resolved. ========
+Module 'repl' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/repl.d.ts'.
+======== Resolving module 'node:readline' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/repl.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'node:readline' from 'node_modules' folder, target file type 'TypeScript'.
+Resolution for module 'node:readline' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:readline' was not resolved. ========
+======== Resolving module 'node:vm' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/repl.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'node:vm' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:vm.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:vm.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:vm.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node:vm.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:vm.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:vm.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:vm.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/@types' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:vm.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:vm.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:vm.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/@types/node:vm.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+Loading module 'node:vm' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:vm.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:vm.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:vm.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:vm.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:vm.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:vm.jsx' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'node:vm' was not resolved. ========
+======== Resolving module 'node:util' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/repl.d.ts'. ========
+Resolution for module 'node:util' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:util' was not resolved. ========
+Module 'stream' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/stream.d.ts'.
+======== Resolving module 'node:events' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/stream.d.ts'. ========
+Resolution for module 'node:events' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:events' was not resolved. ========
+======== Resolving module 'node:buffer' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/stream.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'node:buffer' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:buffer.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:buffer.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:buffer.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node:buffer.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:buffer.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:buffer.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:buffer.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/@types' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:buffer.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:buffer.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:buffer.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/@types/node:buffer.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+Loading module 'node:buffer' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:buffer.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:buffer.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:buffer.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:buffer.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:buffer.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:buffer.jsx' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'node:buffer' was not resolved. ========
+======== Resolving module 'node:stream/promises' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/stream.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'node:stream/promises' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/@types' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+Loading module 'node:stream/promises' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'node:stream/promises' was not resolved. ========
+======== Resolving module 'node:stream/consumers' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/stream.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'node:stream/consumers' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/@types' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+Loading module 'node:stream/consumers' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'node:stream/consumers' was not resolved. ========
+======== Resolving module 'node:stream/web' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/stream.d.ts'. ========
+Resolution for module 'node:stream/web' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:stream/web' was not resolved. ========
+Module 'stream/promises' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/stream/promises.d.ts'.
+======== Resolving module 'node:stream' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/stream/promises.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'node:stream' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/stream/node_modules' does not exist, skipping all lookups in it.
+Resolution for module 'node:stream' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:stream' was not resolved. ========
+Module 'stream/consumers' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/stream/consumers.d.ts'.
+======== Resolving module 'node:buffer' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/stream/consumers.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'node:buffer' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/stream/node_modules' does not exist, skipping all lookups in it.
+Resolution for module 'node:buffer' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:buffer' was not resolved. ========
+======== Resolving module 'node:stream' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/stream/consumers.d.ts'. ========
+Resolution for module 'node:stream' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/stream'.
+======== Module name 'node:stream' was not resolved. ========
+Module 'stream/web' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/stream/web.d.ts'.
+Module 'string_decoder' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/string_decoder.d.ts'.
+======== Resolving module 'node:stream' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/test.d.ts'. ========
+Resolution for module 'node:stream' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:stream' was not resolved. ========
+Module 'timers' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/timers.d.ts'.
+======== Resolving module 'node:events' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/timers.d.ts'. ========
+Resolution for module 'node:events' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:events' was not resolved. ========
+======== Resolving module 'node:timers/promises' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/timers.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'node:timers/promises' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/@types' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+Loading module 'node:timers/promises' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'node:timers/promises' was not resolved. ========
+Module 'timers/promises' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/timers/promises.d.ts'.
+======== Resolving module 'node:timers' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/timers/promises.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'node:timers' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/timers/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:timers.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:timers.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:timers.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node:timers.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:timers.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:timers.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:timers.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/@types' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:timers.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:timers.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:timers.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/@types/node:timers.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+Loading module 'node:timers' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/timers/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:timers.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:timers.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:timers.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:timers.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:timers.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:timers.jsx' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'node:timers' was not resolved. ========
+Module 'tls' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/tls.d.ts'.
+======== Resolving module 'node:crypto' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/tls.d.ts'. ========
+Resolution for module 'node:crypto' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:crypto' was not resolved. ========
+======== Resolving module 'node:net' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/tls.d.ts'. ========
+Resolution for module 'node:net' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:net' was not resolved. ========
+======== Resolving module 'stream' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/tls.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'stream' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/stream.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/stream.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/stream.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/stream.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/stream.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/stream.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/stream.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/@types' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/stream.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/stream.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/stream.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/@types/stream.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+Loading module 'stream' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/stream.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/stream.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/stream.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/stream.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/stream.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/stream.jsx' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'stream' was not resolved. ========
+Module 'trace_events' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/trace_events.d.ts'.
+Module 'tty' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/tty.d.ts'.
+======== Resolving module 'node:net' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/tty.d.ts'. ========
+Resolution for module 'node:net' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:net' was not resolved. ========
+Module 'url' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/url.d.ts'.
+Module 'url' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/url.d.ts'.
+======== Resolving module 'node:buffer' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/url.d.ts'. ========
+Resolution for module 'node:buffer' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:buffer' was not resolved. ========
+======== Resolving module 'node:http' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/url.d.ts'. ========
+Resolution for module 'node:http' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:http' was not resolved. ========
+======== Resolving module 'node:querystring' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/url.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'node:querystring' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:querystring.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:querystring.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:querystring.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node:querystring.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:querystring.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:querystring.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:querystring.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/@types' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:querystring.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:querystring.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:querystring.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/@types/node:querystring.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+Loading module 'node:querystring' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:querystring.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:querystring.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:querystring.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:querystring.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:querystring.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:querystring.jsx' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'node:querystring' was not resolved. ========
+Module 'node:util/types' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/util.d.ts'.
+Module 'util' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/util.d.ts'.
+Module 'util/types' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/util.d.ts'.
+Module 'util' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/util.d.ts'.
+Module 'util/types' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/util.d.ts'.
+======== Resolving module 'node:crypto' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/util.d.ts'. ========
+Resolution for module 'node:crypto' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:crypto' was not resolved. ========
+Module 'v8' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/v8.d.ts'.
+======== Resolving module 'node:stream' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/v8.d.ts'. ========
+Resolution for module 'node:stream' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:stream' was not resolved. ========
+Module 'vm' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/vm.d.ts'.
+Module 'wasi' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/wasi.d.ts'.
+Module 'worker_threads' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/worker_threads.d.ts'.
+Module 'worker_threads' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/worker_threads.d.ts'.
+======== Resolving module 'node:buffer' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/worker_threads.d.ts'. ========
+Resolution for module 'node:buffer' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:buffer' was not resolved. ========
+======== Resolving module 'node:vm' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/worker_threads.d.ts'. ========
+Resolution for module 'node:vm' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:vm' was not resolved. ========
+======== Resolving module 'node:events' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/worker_threads.d.ts'. ========
+Resolution for module 'node:events' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:events' was not resolved. ========
+======== Resolving module 'node:perf_hooks' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/worker_threads.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'node:perf_hooks' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:perf_hooks.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:perf_hooks.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:perf_hooks.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node:perf_hooks.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:perf_hooks.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:perf_hooks.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:perf_hooks.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/@types' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:perf_hooks.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:perf_hooks.tsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:perf_hooks.d.ts' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/@types/node:perf_hooks.d.ts' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+Loading module 'node:perf_hooks' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:perf_hooks.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/node:perf_hooks.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:perf_hooks.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/node_modules/node:perf_hooks.jsx' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:perf_hooks.js' does not exist.
+File '/Users/philswitzer/Documents/GitHub/module-test/node_modules/node:perf_hooks.jsx' does not exist.
+Directory '/Users/philswitzer/Documents/GitHub/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/philswitzer/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'node:perf_hooks' was not resolved. ========
+======== Resolving module 'node:fs/promises' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/worker_threads.d.ts'. ========
+Resolution for module 'node:fs/promises' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:fs/promises' was not resolved. ========
+======== Resolving module 'node:stream' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/worker_threads.d.ts'. ========
+Resolution for module 'node:stream' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:stream' was not resolved. ========
+======== Resolving module 'node:url' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/worker_threads.d.ts'. ========
+Resolution for module 'node:url' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:url' was not resolved. ========
+======== Resolving module 'node:crypto' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/worker_threads.d.ts'. ========
+Resolution for module 'node:crypto' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:crypto' was not resolved. ========
+Module 'zlib' was resolved as locally declared ambient module in file '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/zlib.d.ts'.
+======== Resolving module 'node:stream' from '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8/zlib.d.ts'. ========
+Resolution for module 'node:stream' was found in cache from location '/Users/philswitzer/Documents/GitHub/module-test/node_modules/.pnpm/@types+node@20.1.4/node_modules/@types/node/ts4.8'.
+======== Module name 'node:stream' was not resolved. ========
